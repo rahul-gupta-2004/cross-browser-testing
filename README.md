@@ -38,7 +38,7 @@ Before running the tests, ensure you have the following installed:
 
 1. Make sure the `index.html` file is located in the path specified in the test_cross_browser.py script:
    ```bash
-   url = "D:/Shortcut folder/rahul/program/cross browser testing/index.html"
+   url = "path_to_your_local_file/index.html"
    ```
    Adjust the path to match the location of index.html on your system.
 2. Run the `test_cross_browser.py` script:
