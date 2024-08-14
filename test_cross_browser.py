@@ -1,3 +1,4 @@
+# test_cross_browser.py
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service as ChromeService
@@ -7,7 +8,7 @@ from selenium.webdriver.common.keys import Keys
 import time
 
 # Define the URL of the website to be tested
-url = "D:/Shortcut folder/rahul/program/cross browser testing/index.html"
+url = "path_to_your_local_file/index.html"  # Update this with the relative path or URL
 
 # List of browsers to test
 browsers = ['chrome', 'firefox', 'edge']
