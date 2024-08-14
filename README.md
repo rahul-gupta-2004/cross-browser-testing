@@ -37,18 +37,22 @@ Before running the tests, ensure you have the following installed:
 ## Usage
 
 1. Make sure the `index.html` file is located in the path specified in the test_cross_browser.py script:
+   
    ```bash
    url = "path_to_your_local_file/index.html"
    ```
+
    Adjust the path to match the location of index.html on your system.
+   
 2. Run the `test_cross_browser.py` script:
+
    ```bash
    python test_cross_browser.py
+   
 3. The script will open the `index.html` file in each specified browser, perform a basic test, and print the results.
 
 ## Test Details
 - Title Check: The script asserts that the page title contains "Cross-Browser Testing".
-Button Click: The script finds the button with the ID testButton and simulates a click.
 - Button Interaction: Simulates a click on a button with the ID `testButton` to verify that interactive elements work as expected.
 
 ## Troubleshooting
