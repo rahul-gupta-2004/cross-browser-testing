@@ -1,8 +1,8 @@
-# Cross-Browser Testing
+# Cross-Browser Testing with Selenium
 
 ## Overview
 
-This project demonstrates cross-browser testing using Selenium WebDriver with Python. It includes a simple HTML file and a Python script to test the HTML file across different browsers: Chrome, Firefox, and Edge.
+This project uses Selenium WebDriver with Python to perform cross-browser testing on a simple HTML page. The goal is to ensure that the website is compatible across different web browsers, including Chrome, Firefox, and Edge.
 
 ## Project Structure
 
@@ -26,3 +26,30 @@ Before running the tests, ensure you have the following installed:
    ```bash
    git clone https://github.com/your-username/cross-browser-testing.git
    cd cross-browser-testing
+
+2. Install the required Python packages:
+
+   ```bash
+   pip install selenium
+
+3. Download the appropriate WebDriver for your browsers.
+
+## Usage
+
+1. Make sure the `index.html` file is located in the path specified in the test_cross_browser.py script:
+   ```bash
+   url = "D:/Shortcut folder/rahul/program/cross browser testing/index.html"
+   ```
+   Adjust the path to match the location of index.html on your system.
+2. Run the `test_cross_browser.py` script:
+   ```bash
+   python test_cross_browser.py
+3. The script will open the `index.html` file in each specified browser, perform a basic test, and print the results.
+
+## Test Details
+- Title Check: The script asserts that the page title contains "Cross-Browser Testing".
+Button Click: The script finds the button with the ID testButton and simulates a click.
+- Button Interaction: Simulates a click on a button with the ID `testButton` to verify that interactive elements work as expected.
+
+## Troubleshooting
+- Make sure your browser versions are compatible with the WebDriver versions you are using.
