@@ -24,7 +24,7 @@ Before running the tests, ensure you have the following installed:
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/your-username/cross-browser-testing.git
+   git clone [https://github.com/your-username/cross-browser-testing.git](https://github.com/rahul-gupta-2004/cross-browser-testing.git)
    cd cross-browser-testing
 
 2. Install the required Python packages:
